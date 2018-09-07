@@ -8,9 +8,11 @@ import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatMenuModule} from '@angular/material/menu';
 
 const MODULES = [ MatCardModule, MatToolbarModule, MatInputModule,
-  MatFormFieldModule, MatListModule, MatIconModule, MatButtonModule, MatSliderModule ]
+  MatFormFieldModule, MatListModule, MatIconModule, MatButtonModule, MatSliderModule,
+MatMenuModule ]
 
 @NgModule({
   imports: MODULES,

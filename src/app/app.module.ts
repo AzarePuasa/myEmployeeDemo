@@ -8,9 +8,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { UiModule } from './ui/ui.module';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,6 +21,8 @@ import { UiModule } from './ui/ui.module';
     FormsModule,
     FlexLayoutModule,
     UiModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
